@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SchoolDashboard/static/css/main.a72f8ab5.chunk.css",
+    "main.js": "/SchoolDashboard/static/js/main.be41bd45.chunk.js",
+    "main.js.map": "/SchoolDashboard/static/js/main.be41bd45.chunk.js.map",
+    "runtime-main.js": "/SchoolDashboard/static/js/runtime-main.c9119bbc.js",
+    "runtime-main.js.map": "/SchoolDashboard/static/js/runtime-main.c9119bbc.js.map",
+    "static/js/2.77510b20.chunk.js": "/SchoolDashboard/static/js/2.77510b20.chunk.js",
+    "static/js/2.77510b20.chunk.js.map": "/SchoolDashboard/static/js/2.77510b20.chunk.js.map",
+    "static/js/3.eea2d925.chunk.js": "/SchoolDashboard/static/js/3.eea2d925.chunk.js",
+    "static/js/3.eea2d925.chunk.js.map": "/SchoolDashboard/static/js/3.eea2d925.chunk.js.map",
+    "index.html": "/SchoolDashboard/index.html",
+    "static/css/main.a72f8ab5.chunk.css.map": "/SchoolDashboard/static/css/main.a72f8ab5.chunk.css.map",
+    "static/js/2.77510b20.chunk.js.LICENSE.txt": "/SchoolDashboard/static/js/2.77510b20.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9119bbc.js",
+    "static/js/2.77510b20.chunk.js",
+    "static/css/main.a72f8ab5.chunk.css",
+    "static/js/main.be41bd45.chunk.js"
+  ]
+}
