@@ -1,38 +1,189 @@
-.App {
-  text-align: center;
+.app {
+  display: flex;
+  height: 100vh;
+  background-color: #dadbd3;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.side {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex: 0.1;
+  height: 100%;
+}
+.sidebar {
+  margin-left: 0;
+  display: block;
+  padding-right: 20px;
+  /* Scrollable contents if viewport is shorter than content. */
+  background-color: #f5f5f5;
+  border-right: 1px solid #eee;
+}
+.link-container {
+  display: flex;
+  font-size: 1.3rem;
+  margin-top: 15.5px;
+  margin-right: 100%;
+  font-weight: lighter;
+  margin-left: 20px;
+}
+.fas {
+  margin-top: 5px;
+}
+.link {
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 0;
+  margin-left: 5px;
+}
+.link:hover {
+  font-weight: normal;
+  text-decoration: none;
+  background-color: lightgreen;
+}
+.admin {
+  margin-left: 20px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  flex: 0.9;
+  padding: 1%;
+  background-color: #dadbd3;
+}
+.date {
+  display: flex;
+}
+.date > h3 {
+  flex: 1;
+}
+input {
+  width: 15rem;
+  min-width: 5rem;
+  border: none;
+  outline-width: 0;
+  height: 40px;
+  place-items: center;
+  border-radius: 20px;
+  outline-width: inherit;
+}
+.card {
+  display: inline-block;
+  color: white;
+  background-color: #6960ec;
+  min-width: 10rem;
+  max-width: 28rem;
+  margin-top: 10px;
+}
+.box1 {
+  margin-top: 10px;
+  margin-left: 10px;
+  max-width: 60vw;
+  max-height: 60vh;
+  min-height: 5vh;
+  min-width: 5vw;
+  width: 42vw;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  color: black;
+  align-content: center;
+}
+.box2 {
+  margin-top: 10px;
+  margin-left: 10px;
+  max-width: 40vw;
+  max-height: 60vh;
+  min-height: 5vh;
+  min-width: 5vw;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  color: black;
+  align-content: center;
+}
+.percentage {
+  margin-left: 7px;
+}
+.present {
+  color: green;
+  margin-left: 20%;
+  border: 8px Solid blue;
+  border-top-color: red;
+  display: inline-block;
+  border-radius: 50%;
+  padding-left: 20%;
+  padding-right: 15%;
+}
+.present > h1 {
+  font-size: 5vw;
+}
+.attendence-details {
+  display: flex;
+  justify-content: space-around;
+}
+.attendence {
+  display: flex;
+}
+.dropdown {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.attendence > h1 {
+  flex: 1;
+}
+.days {
+  margin-top: 2%;
+  justify-content: space-around;
+}
+.date-menu {
+  background-color: white;
+  border-radius: 50px;
+  padding: 0.5%;
+}
+.date-menu.active {
+  background-color: blue;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.primary {
+  background-color: green;
+  color: White;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.red {
+  background-color: red;
+  color: white;
+}
+.student {
+  margin-top: 2.5%;
+}
+.number {
+  color: white;
+  background-color: skyblue;
+  padding: 1%;
+  border-radius: 50px;
+  margin-left: 15px;
+}
+.name {
+  padding: 1%;
+  margin-left: 15px;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+.present-student {
+  padding: 0;
+  height: 50px;
+  width: 80px;
+  margin-left: 15px;
+  border-radius: 50px;
+}
+.absent {
+  padding: 0;
+  height: 50px;
+  width: 80px;
+  margin-left: 15px;
+  border-radius: 50px;
+}
+button {
+  border: none;
+  outline-width: 0;
 }
